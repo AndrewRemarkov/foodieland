@@ -42,9 +42,17 @@ export default (props) => {
           <AuthorCard className="hero-card__author" {...author} />
           <Button className="hero-card__button" href="/">
             <span>View Recipes</span>
-            <Icon name="play" />
+            <Icon name="play" hasFill />
           </Button>
         </footer>
+        <img
+          className="hero-card__badge"
+          src="/images/hero-badge.svg"
+          alt=""
+          width="150"
+          height="150"
+          loading="lazy"
+        />
       </div>
       <Image
         className="hero-card__image"
@@ -52,6 +60,7 @@ export default (props) => {
         width={660}
         height={640}
       />
+
     </div>
   )
 }

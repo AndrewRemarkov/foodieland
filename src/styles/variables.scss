@@ -9,6 +9,8 @@
 
   --gradient: linear-gradient(180deg, rgb(231 249 253 / 0%) 0%, #e7f9fd 100%);
 
+  --drop-shadow: 10px 20px 40px rgba(41, 64, 70, 0.10);
+
   --border-radius-m: 60px;
   --border-radius: 30px;
   --border-radius-s: 16px;
@@ -18,6 +20,8 @@
 
   --container-width: #{$container-desktop-width}px;
   --container-padding-x: 16px;
+
+  --section-padding-y: 80px;
 
   --transition-duration: 0.2s;
 
